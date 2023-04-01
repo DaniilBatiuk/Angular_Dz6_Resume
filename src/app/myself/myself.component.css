@@ -1,0 +1,7 @@
+.myselfInfo{
+  text-align: left;
+  margin-left: 10px;
+}
+.myselfInfo > p{
+  margin-bottom: 4px;
+}

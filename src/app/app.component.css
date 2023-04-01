@@ -1,0 +1,30 @@
+.task{
+  max-width: 554px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.task > h1,h3{
+  color: blue;
+}
+.catPhoto{
+  width: 550px;
+  height: 350px;
+  margin-top: 10px;
+}
+.Myphoto{
+  width: 170px;
+  height: 130px;
+  margin: 10px;
+}
+.MyResume{
+  display: flex;
+  flex-direction: row;
+}
+.link{
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
