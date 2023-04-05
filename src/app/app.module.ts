@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { MyselfComponent } from './myself/myself.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
+import { FormsModule } from '@angular/forms';
+import { ResumeData } from './resume.service';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,10 @@ import { SkillsComponent } from './skills/skills.component';
     SkillsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ResumeData],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
